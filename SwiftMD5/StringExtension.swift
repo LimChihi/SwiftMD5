@@ -8,12 +8,7 @@
 
 import Foundation
 
-
 extension String {
-	var utf8Encoded: Data {
-		return self.data(using: .utf8)!
-	}
-	
 	var md5: String {
 		if let data = self.data(using: .utf8, allowLossyConversion: true) {
 			

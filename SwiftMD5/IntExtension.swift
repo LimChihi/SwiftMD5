@@ -27,7 +27,6 @@ extension Int {
 		valuePointer.deallocate(capacity: 1)
 		
 		return bytes
-		
 	}
 	
 }

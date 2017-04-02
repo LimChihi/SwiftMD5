@@ -8,9 +8,7 @@
 
 import Foundation
 
-
-class MD5 {
-	static let size = 16 // 128 / 8
+struct MD5 {
 	let message: [UInt8]
 	
 	init (_ message: [UInt8]) {
